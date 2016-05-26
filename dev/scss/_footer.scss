@@ -1,0 +1,12 @@
+.body__footer {
+    @include clearfix();
+    position: relative;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+
+
+@media only screen and (min-width: #{$smallTabletBreakpoint}) {
+
+}

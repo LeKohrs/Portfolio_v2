@@ -1,0 +1,38 @@
+.sources {
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem;
+    clear: both;
+    background: $darkGrey;
+    text-align: left;
+    &.active {
+        top: auto;
+        bottom: 0;
+    }
+    a {
+        color: $linkColor;
+
+        &:hover,
+        &:active,
+        &:focus,
+        &:visited {
+            color: $linkColor;
+        }
+    }
+}
+
+.share-options {
+    padding: 1em 0;
+    a {
+        display: inline-block;
+        width: (46rem / 16);
+        height: (46rem / 16);
+        margin-right: .75rem;
+        background: url(../img/share-icons.png) no-repeat left top;
+        background-size: auto (46rem / 16);
+    }
+    .twitter { background-position: (-75rem / 16) 0; }
+    .gplus { background-position: (-151rem / 16) 0; }
+    .email { background-position: (-226rem / 16) 0; }
+}
