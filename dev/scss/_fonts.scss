@@ -1,12 +1,64 @@
 @font-face {
-    font-family:'ProximaNova-Regular';
-    src: url('../fonts/ProximaNova-Regular_gdi.eot');
-    src: url('../fonts/ProximaNova-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/ProximaNova-Regular_gdi.woff') format('woff'),
-    url('../fonts/ProximaNova-Regular_gdi.ttf') format('truetype'),
-    url('../fonts/ProximaNova-Regular_gdi.svg#ProximaNova-Regular') format('svg');
-    font-weight: 400;
+    font-family:'Gotham-Book';
+    src: url('../fonts/Gotham-Book_gdi.eot');
+    src: url('../fonts/Gotham-Book_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Book_gdi.woff') format('woff'),
+    url('../fonts/Gotham-Book_gdi.ttf') format('truetype'),
+    url('../fonts/Gotham-Book_gdi.svg#Gotham-Book') format('svg');
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    unicode-range: U+0020-2666;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium_gdi.eot');
+    src: url('../fonts/Gotham-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Medium_gdi.woff') format('woff'),
+    url('../fonts/Gotham-Medium_gdi.ttf') format('truetype'),
+    url('../fonts/Gotham-Medium_gdi.svg#Gotham-Medium') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+  font-family:'AGaramondPro-Regular';
+  src: url('../fonts/AGaramondPro-Regular_gdi.eot');
+  src: url('../fonts/AGaramondPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AGaramondPro-Regular_gdi.woff') format('woff'),
+  url('../fonts/AGaramondPro-Regular_gdi.ttf') format('truetype'),
+  url('../fonts/AGaramondPro-Regular_gdi.svg#AGaramondPro-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+
+@font-face {
+  font-family:'MicrobrewOne-Regular';
+  src: url('../fonts/MicrobrewOne_gdi.eot');
+  src: url('../fonts/MicrobrewOne_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MicrobrewOne_gdi.woff') format('woff'),
+  url('../fonts/MicrobrewOne_gdi.ttf') format('truetype'),
+  url('../fonts/MicrobrewOne_gdi.svg#MicrobrewOne-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+
+@font-face {
+  font-family:'Gotham-Bold';
+  src: url('../fonts/Gotham-Bold_gdi.eot');
+  src: url('../fonts/Gotham-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gotham-Bold_gdi.woff') format('woff'),
+  url('../fonts/Gotham-Bold_gdi.ttf') format('truetype'),
+  url('../fonts/Gotham-Bold_gdi.svg#Gotham-Bold') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
 }
