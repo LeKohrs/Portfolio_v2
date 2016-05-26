@@ -1,6 +1,13 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
 // Site Colors
+$siteBlack: #231f20;
+$siteLightGray: #d5d3d3;
+$siteGray: #6d6e71;
+$siteMidGray: #86898c;
+$siteDarkGray: #636466;
+$siteTeal: #4ebebc;
+
 
 // Greys
 $black: #000;
@@ -27,14 +34,14 @@ $gutter: 1em;
 $warningColor: #f00;
 
 // Typography
-$baseFont: 'Open Sans', sans-serif;
-$baseFontColor: $midGrey;
+$baseFont: 'AGaramondPro-Regular', serif;
+$baseFontColor: $siteGray;
 $baseFontSize: 1rem;
 $baseFontWeight: 300;
 $baseLineHeight: 1.35;
 
 // Heading Typography
-$headingFont: $baseFont;
+$headingFont: 'Gotham-Medium';
 $headingFontColor: $baseFontColor;
 $headingLineHeight: 1.1;
 $headingTextShadow: none;
@@ -47,16 +54,18 @@ $h2Color: $headingFontColor;
 $h2Size: 1.5em;
 $h2FontWeight: 300;
 
-$h3Color: $headingFontColor;
-$h3Size: 1.375em;
+$h3Color: $siteDarkGray;
+$h3Size: (41rem / 16);
 $h3FontWeight: 300;
 
-$h4Color: $headingFontColor;
-$h4Size: 1.25em;
+$h4Font: 'Gotham-Book';
+$h4Color: $siteBlack;
+$h4Size: (21rem / 16);
 $h4FontWeight: 300;
 
+$h5Font: 'Gotham-Book';
 $h5Color: $headingFontColor;
-$h5Size: 1.125em;
+$h5Size: (15rem / 16);
 $h5FontWeight: 300;
 
 $h6Color: $headingFontColor;

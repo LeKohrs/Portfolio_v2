@@ -1,3 +1,22 @@
 .main__section img {
     border-radius: 50%;
 }
+
+.project {
+    padding: 3rem 0 2rem;
+    text-align: center;
+}
+
+.project--visual-quiz {
+    background: $siteTeal;
+}
+
+.project--codepen {
+    background: $siteMidGray;
+}
+
+.codepen-container {
+    width: (616rem / 16);
+    margin: 0 auto;
+}
+

@@ -107,15 +107,15 @@
   word-wrap: break-word; }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "AGaramondPro-Regular", serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
   background: #fff;
-  color: gray;
-  font-family: "Open Sans", sans-serif;
+  color: #6d6e71;
+  font-family: "AGaramondPro-Regular", serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.35; }
@@ -183,43 +183,43 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gotham-Medium";
   line-height: 1.1;
   text-shadow: none; }
 
 h1,
 .h1 {
   margin-bottom: "0.9em";
-  color: gray;
+  color: #6d6e71;
   font-size: 1.875em;
   font-weight: 300; }
 
 h2,
 .h2 {
   margin-bottom: "0.9em";
-  color: gray;
+  color: #6d6e71;
   font-size: 1.5em;
   font-weight: 300; }
 
 h3,
 .h3 {
   margin-bottom: "0.77143em";
-  color: gray;
-  font-size: 1.375em;
+  color: #636466;
+  font-size: 2.5625rem;
   font-weight: 300; }
 
 h4,
 .h4 {
   margin-bottom: "0.77143em";
-  color: gray;
-  font-size: 1.25em;
+  color: #231f20;
+  font-size: 1.3125rem;
   font-weight: 300; }
 
 h5,
 .h5 {
   margin-bottom: "0.675em";
-  color: gray;
-  font-size: 1.125em;
+  color: #6d6e71;
+  font-size: 0.9375rem;
   font-weight: 300; }
 
 h6,
@@ -287,7 +287,7 @@ code,
 kbd,
 pre,
 samp {
-  color: gray;
+  color: #6d6e71;
   font-family: monospace;
   font-size: 0.875rem; }
 
@@ -296,7 +296,7 @@ blockquote {
   padding-left: 0;
   border-left: 0 solid #e6e6e6;
   color: gray;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gotham-Medium";
   font-size: 1.25rem;
   font-style: italic;
   font-weight: 200; }
@@ -311,7 +311,7 @@ textarea {
   margin: 0; }
 
 label {
-  color: gray;
+  color: #6d6e71;
   font-size: 1.125rem;
   font-weight: bold; }
 
@@ -331,8 +331,8 @@ select,
   padding: 0.375rem 1.5rem;
   background-color: #fff;
   border: 0.0625rem solid #e6e6e6;
-  color: gray;
-  font-family: "Open Sans", sans-serif;
+  color: #6d6e71;
+  font-family: "AGaramondPro-Regular", serif;
   font-size: 1rem;
   text-transform: none; }
   input[type='text']:active, input[type='text']:focus,
@@ -369,28 +369,28 @@ textarea {
   color: gray;
   font-size: 1em;
   font-style: normal;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "AGaramondPro-Regular", serif; }
 
 :-moz-placeholder {
   color: gray;
   font-size: 1em;
   font-style: normal;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "AGaramondPro-Regular", serif; }
 
 ::-moz-placeholder {
   color: gray;
   font-size: 1em;
   font-style: normal;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "AGaramondPro-Regular", serif; }
 
 :-ms-input-placeholder {
   color: gray;
   font-size: 1em;
   font-style: normal;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "AGaramondPro-Regular", serif; }
 
 button,
 .button,
@@ -403,9 +403,9 @@ input[type='reset'] {
   padding: 0.5rem 1.5rem;
   overflow: visible;
   background-color: #fff;
-  border: 0.25rem solid gray;
-  color: gray;
-  font-family: "Open Sans", sans-serif;
+  border: 0.25rem solid #6d6e71;
+  color: #6d6e71;
+  font-family: "AGaramondPro-Regular", serif;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: none;
@@ -415,7 +415,7 @@ input[type='reset'] {
   input[type='button'].alt,
   input[type='submit'].alt,
   input[type='reset'].alt {
-    background-color: gray; }
+    background-color: #6d6e71; }
   button:active, button:focus,
   .button:active,
   .button:focus,
@@ -439,9 +439,9 @@ input[type='reset'] {
   input[type='reset']:hover,
   input[type='reset']:focus,
   input[type='reset']:visited {
-    color: gray;
+    color: #6d6e71;
     text-decoration: none;
-    border: 0.25rem solid gray; }
+    border: 0.25rem solid #6d6e71; }
 
 button,
 html input[type='button'],
@@ -515,6 +515,20 @@ th {
 .wrapper {
   overflow: hidden; }
 
+.project p {
+  font-size: 1.3125rem; }
+
+.project--visual-quiz p,
+.project--codepen p {
+  color: #fff; }
+
+.project--visual-quiz h3,
+.project--codepen h3 {
+  color: #fff; }
+
+h5 {
+  font-family: "Gotham-Book"; }
+
 .body__header {
   text-align: center; }
 
@@ -524,16 +538,22 @@ th {
 .main__section img {
   border-radius: 50%; }
 
+.project {
+  padding: 3rem 0 2rem;
+  text-align: center; }
+
+.project--visual-quiz {
+  background: #4ebebc; }
+
+.project--codepen {
+  background: #86898c; }
+
+.codepen-container {
+  width: 38.5rem;
+  margin: 0 auto; }
+
 .body__footer {
-  *zoom: 1;
-  position: relative;
-  padding: 0;
-  padding-top: 1rem; }
-  .body__footer:before, .body__footer:after {
-    display: table;
-    content: ''; }
-  .body__footer:after {
-    clear: both; }
+  background: #d5d3d3; }
 
 .sources {
   position: relative;
