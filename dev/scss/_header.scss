@@ -1,7 +1,40 @@
 .body__header {
+    position: relative;
     text-align: center;
 }
 
-.header__title {
-    margin-bottom: 1rem;
+.header__menu {
+    @include flexbox();
+    @include flexbox-justify-content(space-around);
+    @include flexbox-align-items(center);
+    width: 22%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: (66rem / 16);
+}
+
+.header__links {
+    @include flexbox();
+    @include flexbox-justify-content(space-around);
+    @include flexbox-align-items(center);
+    @include transform-translate(0, -50%);
+    position: absolute;
+    width: 15%;
+    height: (28.5rem / 16);
+    top: 50%;
+    right: 0;
+}
+
+.header__twitter {
+    width: (36rem / 16);
+}
+
+.header__email {
+    width: (30rem / 16);
+}
+
+.header__git {
+    width: (29rem / 16);
 }

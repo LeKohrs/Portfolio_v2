@@ -1,8 +1,33 @@
 .body__footer {
+    position: relative;
+    height: (53rem / 16);
+    padding: 0 1rem;
     background: $siteLightGray;
 }
 
+.footer__links {
+    @include flexbox();
+    @include flexbox-justify-content(space-around);
+    @include flexbox-align-items(center);
+    @include transform-translate(0, -40%);
+    position: absolute;
+    width: 15%;
+    height: (28.5rem / 16);
+    top: 50%;
+    right: 0;
+}
 
+.footer__twitter {
+    width: (36rem / 16);
+}
+
+.footer__email {
+    width: (30rem / 16);
+}
+
+.footer__git {
+    width: (29rem / 16);
+}
 
 @media only screen and (min-width: #{$smallTabletBreakpoint}) {
 

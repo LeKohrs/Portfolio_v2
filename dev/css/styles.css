@@ -527,16 +527,59 @@ th {
   color: #fff; }
 
 h5 {
-  font-family: "Gotham-Book"; }
+  display: inline-block;
+  font-family: "Gotham-Book";
+  vertical-align: middle; }
 
 .body__header {
+  position: relative;
   text-align: center; }
 
-.header__title {
-  margin-bottom: 1rem; }
+.header__menu {
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 22%;
+  margin: 0 auto; }
 
-.main__section img {
-  border-radius: 50%; }
+.logo {
+  width: 4.125rem; }
+
+.header__links {
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  width: 15%;
+  height: 1.78125rem;
+  top: 50%;
+  right: 0; }
+
+.header__twitter {
+  width: 2.25rem; }
+
+.header__email {
+  width: 1.875rem; }
+
+.header__git {
+  width: 1.8125rem; }
 
 .project {
   padding: 3rem 0 2rem;
@@ -549,11 +592,44 @@ h5 {
   background: #86898c; }
 
 .codepen-container {
-  width: 38.5rem;
+  width: 50%;
+  min-width: 21.875rem;
   margin: 0 auto; }
 
 .body__footer {
+  position: relative;
+  height: 3.3125rem;
+  padding: 0 1rem;
   background: #d5d3d3; }
+
+.footer__links {
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-transform: translate(0, -40%);
+  -ms-transform: translate(0, -40%);
+  transform: translate(0, -40%);
+  position: absolute;
+  width: 15%;
+  height: 1.78125rem;
+  top: 50%;
+  right: 0; }
+
+.footer__twitter {
+  width: 2.25rem; }
+
+.footer__email {
+  width: 1.875rem; }
+
+.footer__git {
+  width: 1.8125rem; }
 
 .sources {
   position: relative;
