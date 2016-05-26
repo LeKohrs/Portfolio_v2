@@ -7,7 +7,7 @@
     @include flexbox();
     @include flexbox-justify-content(space-around);
     @include flexbox-align-items(center);
-    width: 22%;
+    width: (250rem / 16);
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@
     @include flexbox-align-items(center);
     @include transform-translate(0, -50%);
     position: absolute;
-    width: 15%;
+    width: (150rem / 16);
     height: (28.5rem / 16);
     top: 50%;
     right: 0;

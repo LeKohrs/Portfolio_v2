@@ -522,9 +522,11 @@ th {
 .project--codepen p {
   color: #fff; }
 
-.project--visual-quiz h3,
-.project--codepen h3 {
-  color: #fff; }
+h3 {
+  margin: .5rem 0 0; }
+  .project--visual-quiz h3,
+  .project--codepen h3 {
+    color: #fff; }
 
 h5 {
   display: inline-block;
@@ -546,7 +548,7 @@ h5 {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  width: 22%;
+  width: 15.625rem;
   margin: 0 auto; }
 
 .logo {
@@ -567,7 +569,7 @@ h5 {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   position: absolute;
-  width: 15%;
+  width: 9.375rem;
   height: 1.78125rem;
   top: 50%;
   right: 0; }
@@ -595,6 +597,12 @@ h5 {
   width: 50%;
   min-width: 21.875rem;
   margin: 0 auto; }
+
+.description {
+  margin-top: 2rem; }
+
+.subtitle {
+  margin-top: .5rem; }
 
 .body__footer {
   position: relative;
