@@ -49,53 +49,85 @@
 <body>
 <div class="wrapper">
     <header class="body__header">
-        <h1 class="header__title">
-            Infographic Title
-        </h1>
-        <section class="header__description">
-            Turpis diam. Eu ac, dignissim ultricies porta lectus purus etiam! Velit nisi, nisi, turpis, in massa, massa! Pulvinar lorem tortor mid etiam mauris nunc. Augue vut, elementum porta tincidunt rhoncus.<sup class="source-link">1</sup>
-        </section>
+        <div class="header__menu">
+            <h4>About</h4>
+            <img class="logo" src="img/ryan-logo.svg" alt="Ryan's Logo"/>
+            <h4>Work</h4>
+        </div>
+        <div class="header__links">
+            <a href="https://twitter.com/RyanLeichliter" target="_blank"><img class="icon header__twitter" src="img/twitter.svg" alt="Twitter"/></a>
+            <a href="mailto:ryan.leichliter@icloud.com?Subject=I%20am%20interested%20in%20hiring%20you!"><img class="icon header__email" src="img/email.svg" alt="Email"/></a>
+            <a href="https://github.com/LeKohrs" target="_blank"><img class="icon header__git" src="img/git.svg" alt="Github"/></a>
+        </div>
     </header>
 
     <main class="body__main">
-        <section class="main__section">
-            <img src="http://placekitten.com/1600/1200" alt="" />
+        <section class="work-it"></section>
+        <section class="project project--visual-quiz">
+            <a href="http://lemonly.com/visual-quiz/" target="_blank"><img class="project__img" src="img/visual-quiz.png" srcset="img/visual-quiz.png 1x, img/visual-quiz_2x.png 2x" alt="Visual Quiz example img"/></a>
+            <h3>Lemonly's Visual Quiz</h3>
+            <p class="subtitle">Web Animation/UX/Interactive</p>
+            <p class="description">Description of project here. Designed for Lemonly.
+                Blah, Blah, Blah</p>
         </section>
-
-        <section class="main__section">
-            <header class="section__header">
-                <h1>Header</h1>
-            </header>
-            <section class="section__content">
-                <header class="content__header">
-                    <section class="content__graphic">
-                        <img src="http://placekitten.com/600/400" />
-                    </section>
-                    <h2>
-                        Section Title
-                    </h2>
-                </header>
-                <div class="content__summary">
-                    Scelerisque dis ut dolor rhoncus urna a habitasse, ut vel arcu mid?<sup class="source-link">2</sup> Odio et! Pellentesque natoque sagittis!
+        <section class="project project--map">
+            <a href="http://kochhazard.com/interactive-map/index.html" target="_blank"><img class="project__img" src="img/map.png" srcset="img/map.png 1x, img/map_2x.png 2x" alt="Interactive Map example img"/></a>
+            <h3>Koch Hazard Interactive Map</h3>
+            <p class="subtitle">UX/Interactive</p>
+            <p class="description">Description of project here. Designed for Lemonly.
+                Blah, Blah, Blah</p>
+        </section>
+        <section class="project project--codepen">
+            <div class="codepen-container codepen--movie">
+                <div class="pen">
+                    <p data-height="452" data-theme-id="dark" data-slug-hash="vNdgZZ" data-default-tab="result" data-user="LeKohrs" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/LeKohrs/pen/vNdgZZ/" target="_blank">Fort Lauderdale - Cinema Paradiso</a> by Ryan Leichliter (<a href="http://codepen.io/LeKohrs">@LeKohrs</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
                 </div>
-            </section>
+                <h3>Movie Goer</h3>
+                <p class="subtitle">Greensock/SVG/Character Animation/Web Animation</p>
+                <p class="description">Description of project here. Designed for Lemonly.
+                    Blah, Blah, Blah</p>
+            </div>
+            <div class="codepen-container codepen--haunted">
+                <div class="pen">
+                    <p data-height="452" data-theme-id="dark" data-slug-hash="Lpdvvd" data-default-tab="result" data-user="LeKohrs" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/LeKohrs/pen/Lpdvvd/" target="_blank">Spellbound Tours - Salem</a> by Ryan Leichliter (<a href="http://codepen.io/LeKohrs">@LeKohrs</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+                <h3>Haunted House</h3>
+                <p class="subtitle">Greensock/SVG/Web Animation</p>
+                <p class="description">Description of project here. Designed for Lemonly.
+                    Blah, Blah, Blah</p>
+            </div>
+        </section>
+        <section class="project project--gif">
+            <div class="gif-container gif--friends">
+                <img class="gif" src="img/friends.gif" alt="friends on social media gif"/>
+                <h3>Friends</h3>
+                <p class="description">Description of project here. Designed for Lemonly.
+                    Blah, Blah, Blah</p>
+            </div>
+            <div class="gif-container gif--euro">
+                <img class="gif" src="img/euro_languages.gif" alt="Number of languages people speak in europe"/>
+                <h3>How many languages do you speak?</h3>
+                <p class="description">Description of project here. Designed for Lemonly.
+                    Blah, Blah, Blah</p>
+            </div>
+            <div class="gif-container gif--most-used">
+                <img class="gif" src="img/most_used_apps.gif" alt="Most used apps on Itunes belong to two companies"/>
+                <h3>Top Apps</h3>
+                <p class="description">Description of project here. Designed for Lemonly.
+                    Blah, Blah, Blah</p>
+            </div>
         </section>
     </main>
 
     <footer class="body__footer">
-        <section class="footer__logo">
-
-        </section>
-        <aside class="sources share-active">
-            <section class="share__list">
-                <section class="share-options">
-                    <a target="_blank" href="https://facebook.com/sharer.php?u=http://url.to.com/infographic/url" class="facebook"></a>
-                    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://url.to.com/infographic/url&text=Title&via=********" class="twitter"></a>
-                    <a target="_blank" href="https://plus.google.com/share?url=http://url.to.com/infographic/url" class="gplus"></a>
-                    <a target="_blank" href="mailto:?subject=Title+by+********&body=http://url.to.com/infographic/url" class="email"></a>
-                </section>
-            </section>
-        </aside>
+        <h5>&copy; 2016 Ryan Leichliter</h5>
+        <div class="footer__links">
+            <a href="https://twitter.com/RyanLeichliter" target="_blank"><img class="icon footer__twitter" src="img/twitter-footer.svg" alt="Twitter"/></a>
+            <a href="mailto:ryan.leichliter@icloud.com?Subject=I%20am%20interested%20in%20hiring%20you!"><img class="icon footer__email" src="img/email-footer.svg" alt="Email"/></a>
+            <a href="https://github.com/LeKohrs" target="_blank"><img class="icon footer__git" src="img/git-footer.svg" alt="Github"/></a>
+        </div>
     </footer>
 </div>
 

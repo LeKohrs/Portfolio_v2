@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 127.3 127" style="enable-background:new 0 0 127.3 127;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#378FCA;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#E6E7E8;}
+	.st3{fill:#EF6344;}
+	.st4{fill:#F7DF78;}
+	.st5{fill:#4EBDBB;}
+	.st6{fill:#80C0E1;}
+	.st7{fill:#45AFD8;}
+	.st8{fill:#D3D2D2;}
+</style>
+<circle id="background" class="st0" cx="63.8" cy="63.5" r="63"/>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="63.5" cy="63.5" r="63"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="buildDesk" class="st1">
+		<path class="st2" d="M93.8,100.5H38.3c-6.6,0-12-5.4-12-12V45c0-6.6,5.4-12,12-12h55.5c6.6,0,12,5.4,12,12v43.5
+			C105.8,95.1,100.4,100.5,93.8,100.5z"/>
+		<g>
+			<circle class="st3" cx="39.5" cy="40.8" r="2.6"/>
+			<circle class="st4" cx="48" cy="40.8" r="2.6"/>
+			<circle class="st5" cx="56.6" cy="40.8" r="2.6"/>
+		</g>
+		<path class="st6" d="M93.9,100.8H38.4c-6.6,0-12-5.4-12-12V47.6h79.5v41.2C105.9,95.4,100.5,100.8,93.9,100.8z"/>
+		<rect x="36.1" y="78.9" class="st7" width="31.6" height="2.6"/>
+		<rect x="74.2" y="53.4" class="st7" width="21.8" height="40.2"/>
+		<circle class="st7" cx="50.7" cy="63.4" r="10.5"/>
+		<rect x="36.1" y="84.6" class="st7" width="31.6" height="2.6"/>
+		<rect x="36.1" y="90.6" class="st7" width="31.6" height="2.6"/>
+	</g>
+	<g id="buildMobile" class="st1">
+		<g>
+			<g>
+				<path class="st2" d="M82.9,104.2H45.4c-2.8,0-5.1-2.3-5.1-5.1V29.9c0-2.8,2.3-5.1,5.1-5.1h37.5c2.8,0,5.1,2.3,5.1,5.1v69.3
+					C87.9,101.9,85.7,104.2,82.9,104.2z"/>
+				<circle class="st8" cx="64.2" cy="100.5" r="2.3"/>
+				<path class="st8" d="M68.2,30.1h-8c-0.4,0-0.7-0.3-0.7-0.7l0,0c0-0.4,0.3-0.7,0.7-0.7h8c0.4,0,0.7,0.3,0.7,0.7l0,0
+					C68.8,29.8,68.5,30.1,68.2,30.1z"/>
+			</g>
+			<rect x="44.5" y="33.2" class="st6" width="39.3" height="62.7"/>
+		</g>
+		<circle class="st7" cx="54.2" cy="49.1" r="6"/>
+		<rect x="47.7" y="77.4" class="st7" width="31.6" height="2.6"/>
+		<rect x="47.7" y="83.1" class="st7" width="31.6" height="2.6"/>
+		<rect x="47.7" y="89.1" class="st7" width="31.6" height="2.6"/>
+		<rect x="47.7" y="60.4" class="st7" width="31.6" height="13.3"/>
+		<g>
+			<rect x="64.7" y="44.9" class="st7" width="14.6" height="2.6"/>
+			<rect x="64.7" y="50.6" class="st7" width="14.6" height="2.6"/>
+		</g>
+		<rect x="44.6" y="33.2" class="st7" width="39.2" height="5.3"/>
+	</g>
+</g>
+</svg>
