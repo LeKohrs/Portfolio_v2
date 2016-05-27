@@ -13,6 +13,10 @@ p {
     }
 }
 
+h4 {
+    font-family: $h4Font;
+}
+
 h3 {
     margin: .5rem 0 0;
     .project--visual-quiz &,

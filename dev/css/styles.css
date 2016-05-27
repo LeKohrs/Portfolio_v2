@@ -522,6 +522,9 @@ th {
 .project--codepen p {
   color: #fff; }
 
+h4 {
+  font-family: "Gotham-Book"; }
+
 h3 {
   margin: .5rem 0 0; }
   .project--visual-quiz h3,
@@ -535,6 +538,7 @@ h5 {
 
 .body__header {
   position: relative;
+  padding: .3rem 0;
   text-align: center; }
 
 .header__menu {
@@ -572,7 +576,7 @@ h5 {
   width: 9.375rem;
   height: 1.78125rem;
   top: 50%;
-  right: 0; }
+  right: 2rem; }
 
 .header__twitter {
   width: 2.25rem; }
@@ -596,6 +600,7 @@ h5 {
 .codepen-container {
   width: 50%;
   min-width: 21.875rem;
+  max-width: 46.875rem;
   margin: 0 auto; }
 
 .description {
@@ -625,10 +630,10 @@ h5 {
   -ms-transform: translate(0, -40%);
   transform: translate(0, -40%);
   position: absolute;
-  width: 15%;
+  width: 9.375rem;
   height: 1.78125rem;
   top: 50%;
-  right: 0; }
+  right: 2rem; }
 
 .footer__twitter {
   width: 2.25rem; }
