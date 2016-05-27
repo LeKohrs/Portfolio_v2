@@ -1,6 +1,8 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
 // Site Colors
+$siteBlue: #3790ca;
+$siteBlueBlack: #141929;
 $siteBlack: #231f20;
 $siteLightGray: #d5d3d3;
 $siteGray: #6d6e71;
@@ -46,12 +48,13 @@ $headingFontColor: $baseFontColor;
 $headingLineHeight: 1.1;
 $headingTextShadow: none;
 
-$h1Color: $headingFontColor;
-$h1Size: 1.875em;
+$h1Font: 'MicrobrewOne-Regular';
+$h1Color: $siteBlueBlack;
+$h1Size: (91rem / 16);
 $h1FontWeight: 300;
 
-$h2Color: $headingFontColor;
-$h2Size: 1.5em;
+$h2Color: $siteBlue;
+$h2Size: (29rem / 16);
 $h2FontWeight: 300;
 
 $h3Color: $siteDarkGray;

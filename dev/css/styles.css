@@ -190,15 +190,15 @@ h6 {
 h1,
 .h1 {
   margin-bottom: "0.9em";
-  color: #6d6e71;
-  font-size: 1.875em;
+  color: #141929;
+  font-size: 5.6875rem;
   font-weight: 300; }
 
 h2,
 .h2 {
   margin-bottom: "0.9em";
-  color: #6d6e71;
-  font-size: 1.5em;
+  color: #3790ca;
+  font-size: 1.8125rem;
   font-weight: 300; }
 
 h3,
@@ -515,6 +515,20 @@ th {
 .wrapper {
   overflow: hidden; }
 
+a {
+  text-decoration: none; }
+
+.body__main p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 39.0625rem;
+  font-size: 1.4375rem; }
+
+.intro__title p {
+  max-width: 32.5rem;
+  text-align: left; }
+
 .project p {
   font-size: 1.3125rem; }
 
@@ -522,14 +536,23 @@ th {
 .project--codepen p {
   color: #fff; }
 
-h4 {
-  font-family: "Gotham-Book"; }
+h1 {
+  margin: 0;
+  font-family: "MicrobrewOne-Regular";
+  font-size: 5.6875rem; }
+
+h2 {
+  margin: 0;
+  letter-spacing: .18rem; }
 
 h3 {
   margin: .5rem 0 0; }
   .project--visual-quiz h3,
   .project--codepen h3 {
     color: #fff; }
+
+h4 {
+  font-family: "Gotham-Book"; }
 
 h5 {
   display: inline-block;
@@ -586,6 +609,73 @@ h5 {
 
 .header__git {
   width: 1.8125rem; }
+
+.body__main {
+  text-align: center; }
+
+.intro {
+  -webkit-transform: translate(-2rem, 0);
+  -ms-transform: translate(-2rem, 0);
+  transform: translate(-2rem, 0);
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  margin-top: 4rem;
+  margin-bottom: 3rem; }
+
+.intro__face {
+  width: 8.3125rem;
+  margin-right: 1rem; }
+
+.build,
+.move {
+  margin-bottom: 5rem; }
+
+.work {
+  margin-bottom: 4rem; }
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  max-width: 20.3125rem; }
+
+.build__icons,
+.move__icons,
+.work__icons {
+  width: 7.875rem; }
+
+.arrow--down {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 2.5625rem; }
+
+.email--alt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6rem; }
 
 .project {
   padding: 3rem 0 2rem;
