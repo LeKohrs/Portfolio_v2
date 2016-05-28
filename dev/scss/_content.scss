@@ -87,6 +87,11 @@
     text-align: center;
 }
 
+.project__container {
+    @include transform-translate(0, 5rem);
+    @include transition(all .4s);
+    opacity: 0;
+}
 .project--visual-quiz {
     background: $siteTeal;
 }
@@ -96,10 +101,19 @@
 }
 
 .codepen-container {
+    @include transition(all .7s);
+    @include transform-translate(200rem, 0);
+    position: absolute;
     width: 50%;
     min-width: (350rem / 16);
     max-width: (750rem / 16);
     margin: 0 auto;
+}
+
+.gif-container {
+    @include transition(all .7s);
+    @include transform-translate(200rem, 0);
+    position: absolute;
 }
 
 .project__img {

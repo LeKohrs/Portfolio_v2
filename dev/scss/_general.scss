@@ -5,6 +5,7 @@
 a {
     text-decoration: none;
 }
+
 p {
     .body__main & {
         @include center-block();

@@ -728,6 +728,13 @@ h5 {
   padding: 2rem 1rem 2rem;
   text-align: center; }
 
+.project__container {
+  -webkit-transform: translate(0, 5rem);
+  -ms-transform: translate(0, 5rem);
+  transform: translate(0, 5rem);
+  transition: all 0.4s;
+  opacity: 0; }
+
 .project--visual-quiz {
   background: #4ebebc; }
 
@@ -735,10 +742,22 @@ h5 {
   background: #86898c; }
 
 .codepen-container {
+  transition: all 0.7s;
+  -webkit-transform: translate(200rem, 0);
+  -ms-transform: translate(200rem, 0);
+  transform: translate(200rem, 0);
+  position: absolute;
   width: 50%;
   min-width: 21.875rem;
   max-width: 46.875rem;
   margin: 0 auto; }
+
+.gif-container {
+  transition: all 0.7s;
+  -webkit-transform: translate(200rem, 0);
+  -ms-transform: translate(200rem, 0);
+  transform: translate(200rem, 0);
+  position: absolute; }
 
 .project--map .project__img {
   box-shadow: 0 3px 3px #888888; }
@@ -847,5 +866,17 @@ h5 {
     background-position: -9.4375rem 0; }
   .share-options .email {
     background-position: -14.125rem 0; }
+
+.slideUp {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1; }
+
+.active {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  position: relative; }
 
 /*# sourceMappingURL=styles.css.map */

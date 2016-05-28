@@ -1,0 +1,9 @@
+.slideUp {
+    @include transform-translate(0, 0);
+    opacity: 1;
+}
+
+.active {
+    @include transform-translate(0, 0);
+    position: relative;
+}
