@@ -118,6 +118,7 @@
 
 .pronunciation {
     @include transition(all .7s);
+    @include border-left-radius(20px);
     position: absolute;
     right: -12rem;
     top: 5%;

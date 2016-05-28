@@ -751,6 +751,9 @@ h5 {
 
 .pronunciation {
   transition: all 0.7s;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-clip: padding-box;
   position: absolute;
   right: -12rem;
   top: 5%;
