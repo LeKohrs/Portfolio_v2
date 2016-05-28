@@ -529,6 +529,12 @@ a {
   max-width: 32.5rem;
   text-align: left; }
 
+.build p,
+.move p,
+.work p {
+  max-width: 32.5rem;
+  text-align: left; }
+
 .project p {
   font-size: 1.3125rem; }
 
@@ -558,6 +564,10 @@ h5 {
   display: inline-block;
   font-family: "Gotham-Book";
   vertical-align: middle; }
+
+@media only screen and (max-width: 573px) {
+  h1 {
+    font-size: 5.4375rem; } }
 
 .body__header {
   position: relative;
@@ -629,9 +639,6 @@ h5 {
   background-size: contain; }
 
 .intro {
-  -webkit-transform: translate(-4rem, 0);
-  -ms-transform: translate(-4rem, 0);
-  transform: translate(-4rem, 0);
   -ms-box-orient: horizontal;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -646,10 +653,6 @@ h5 {
   margin: 0 auto;
   margin-top: 4rem;
   margin-bottom: 3rem; }
-
-.intro__face {
-  width: 8.3125rem;
-  margin-right: 1rem; }
 
 .build,
 .move,
@@ -678,7 +681,19 @@ h5 {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  max-width: 20.3125rem; }
+  max-width: 20.625rem; }
+  .build .header {
+    -webkit-transform: translate(-5.4rem, 0);
+    -ms-transform: translate(-5.4rem, 0);
+    transform: translate(-5.4rem, 0); }
+  .move .header {
+    -webkit-transform: translate(5.4rem, 0);
+    -ms-transform: translate(5.4rem, 0);
+    transform: translate(5.4rem, 0); }
+  .work .header {
+    -webkit-transform: translate(-5.4rem, 0);
+    -ms-transform: translate(-5.4rem, 0);
+    transform: translate(-5.4rem, 0); }
 
 .build__icons,
 .move__icons,
@@ -699,7 +714,7 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 6rem; }
+  width: 4.375rem; }
 
 .email--alt:hover {
   -webkit-transform-origin: 50% 50%;
@@ -710,7 +725,7 @@ h5 {
   transform: scale(1.1, 1.1); }
 
 .project {
-  padding: 3rem 1rem 2rem;
+  padding: 2rem 1rem 2rem;
   text-align: center; }
 
 .project--visual-quiz {

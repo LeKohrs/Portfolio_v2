@@ -10,7 +10,7 @@
 }
 
 .intro {
-    @include transform-translate(-4rem, 0);
+    //@include transform-translate(-4rem, 0);
     @include flexbox();
     @include flexbox-justify-content(center);
     @include flexbox-align-items(flex-start);
@@ -20,10 +20,10 @@
     margin-bottom: 3rem;
 }
 
-.intro__face {
-    width: (133rem / 16);
-    margin-right: 1rem;
-}
+//.intro__face {
+//    width: (133rem / 16);
+//    margin-right: 1rem;
+//}
 
 .build,
 .move,
@@ -46,7 +46,17 @@
     @include flexbox();
     @include flexbox-justify-content(space-between);
     @include flexbox-align-items(center);
-    max-width: (325rem / 16);
+    max-width: (330rem / 16);
+
+    .build & {
+        @include transform-translate(-5.4rem, 0);
+    }
+    .move & {
+        @include transform-translate(5.4rem, 0);
+    }
+    .work & {
+        @include transform-translate(-5.4rem, 0);
+    }
 }
 
 .build__icons,
@@ -64,7 +74,7 @@
 .email--alt {
     @include transition(all .3s);
     @include center-block();
-    width: (96rem / 16);
+    width: (70rem / 16);
 }
 
 .email--alt:hover {
@@ -73,7 +83,7 @@
 }
 
 .project {
-    padding: 3rem 1rem 2rem;
+    padding: 2rem 1rem 2rem;
     text-align: center;
 }
 

@@ -17,6 +17,13 @@ p {
         text-align: left;
     }
 
+    .build &,
+    .move &,
+    .work & {
+        max-width: (520rem / 16);
+        text-align: left;
+    }
+
     .project & {
         font-size: (21rem / 16);
     }
@@ -54,4 +61,10 @@ h5 {
     display: inline-block;
     font-family: $h5Font;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 573px) {
+    h1 {
+        font-size: (87rem / 16);
+    }
 }
