@@ -620,6 +620,7 @@ h5 {
     right: 0; } }
 
 .body__main {
+  position: relative;
   text-align: center; }
 
 .plaid-line {
@@ -694,10 +695,19 @@ h5 {
   width: 2.5625rem; }
 
 .email--alt {
+  transition: all 0.3s;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 6rem; }
+
+.email--alt:hover {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1); }
 
 .project {
   padding: 3rem 1rem 2rem;
@@ -724,6 +734,17 @@ h5 {
 .subtitle {
   margin-top: .5rem; }
 
+.pronunciation {
+  transition: all 0.7s;
+  position: absolute;
+  right: -12rem;
+  top: 5%;
+  width: 15.625rem;
+  z-index: 50; }
+
+.pronunciation:hover {
+  right: 0; }
+
 @media only screen and (max-width: 835px) {
   .intro {
     -webkit-transform: translate(0, 0);
@@ -731,6 +752,8 @@ h5 {
     transform: translate(0, 0); }
     .intro p {
       text-align: center; }
+  .pronunciation {
+    display: none; }
   .intro__face {
     display: none; } }
 
