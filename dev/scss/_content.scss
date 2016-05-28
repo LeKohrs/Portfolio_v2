@@ -2,11 +2,18 @@
     text-align: center;
 }
 
+.plaid-line {
+    height: 15px;
+    background: url('../img/plaid.jpg') repeat-x;
+    background-size: contain;
+}
 .intro {
-    @include transform-translate(-2rem, 0);
+    @include transform-translate(-4rem, 0);
     @include flexbox();
     @include flexbox-justify-content(center);
     @include flexbox-align-items(flex-start);
+    width: 90%;
+    margin: 0 auto;
     margin-top: 4rem;
     margin-bottom: 3rem;
 }
@@ -14,6 +21,13 @@
 .intro__face {
     width: (133rem / 16);
     margin-right: 1rem;
+}
+
+.build,
+.move,
+.work {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .build,
@@ -51,7 +65,7 @@
 }
 
 .project {
-    padding: 3rem 0 2rem;
+    padding: 3rem 1rem 2rem;
     text-align: center;
 }
 
@@ -70,10 +84,41 @@
     margin: 0 auto;
 }
 
+.project__img {
+    .project--map & {
+        box-shadow: 0 3px 3px #888888;
+    }
+}
+
 .description {
     margin-top: 2rem;
 }
 
 .subtitle {
     margin-top: .5rem;
+}
+
+@media only screen and (max-width: 835px) {
+    .intro {
+        @include transform-translate(0, 0);
+        p {
+            text-align: center;
+        }
+    }
+
+    .intro__face {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 573px) {
+    .intro {
+        span {
+            display: none;
+        }
+    }
+
+    .intro__face {
+        display: none;
+    }
 }

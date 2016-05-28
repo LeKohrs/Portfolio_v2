@@ -9,7 +9,7 @@ p {
     .body__main & {
         @include center-block();
         max-width: (625rem / 16);
-        font-size: (23rem / 16);
+        font-size: (21rem / 16);
     }
 
     .intro__title & {
