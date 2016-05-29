@@ -790,7 +790,7 @@ h5 {
 
 .project--codepen {
   background: #86898c;
-  height: 46.875rem; }
+  height: 50rem; }
 
 .project--gif {
   height: 43.75rem; }
@@ -815,7 +815,9 @@ h5 {
   box-shadow: 0 3px 3px #888888; }
 
 .description {
-  margin-top: 2rem; }
+  width: 90%;
+  max-width: 37.5rem;
+  margin: 2rem auto 0; }
 
 .subtitle {
   margin-top: .5rem; }
@@ -849,8 +851,18 @@ h5 {
 @media only screen and (max-width: 573px) {
   .intro span {
     display: none; }
-  .intro__face {
-    display: none; } }
+  .build .header {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  .move .header {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  .work .header {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0); } }
 
 .body__footer {
   position: relative;
