@@ -13,6 +13,7 @@
 	.st6{fill:#80C0E1;}
 	.st7{fill:#45AFD8;}
 	.st8{fill:#D3D2D2;}
+	#buildMobile{y:200;}
 </style>
 <circle id="background" class="st0" cx="63.8" cy="63.5" r="63"/>
 <g>
@@ -37,7 +38,7 @@
 		<rect x="36.1" y="84.6" class="st7" width="31.6" height="2.6"/>
 		<rect x="36.1" y="90.6" class="st7" width="31.6" height="2.6"/>
 	</g>
-	<g id="buildMobile" class="st1">
+	<g id="buildMobile" class="st1" transform="translate(0,200)">
 		<g>
 			<g>
 				<path class="st2" d="M82.9,104.2H45.4c-2.8,0-5.1-2.3-5.1-5.1V29.9c0-2.8,2.3-5.1,5.1-5.1h37.5c2.8,0,5.1,2.3,5.1,5.1v69.3

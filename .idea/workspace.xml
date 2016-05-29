@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="774bdab2-00e3-44e5-ba04-39026dca99d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/js/site/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css.map" afterPath="$PROJECT_DIR$/dev/css/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-build.svg" afterPath="$PROJECT_DIR$/dev/img/icons-build.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-move.svg" afterPath="$PROJECT_DIR$/dev/img/icons-move.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-work.svg" afterPath="$PROJECT_DIR$/dev/img/icons-work.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.html" afterPath="$PROJECT_DIR$/dev/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/site/app.es6" afterPath="$PROJECT_DIR$/dev/js/site/app.es6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/site/app.js" afterPath="$PROJECT_DIR$/dev/js/site/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scss/_animation.scss" afterPath="$PROJECT_DIR$/dev/scss/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scss/_content.scss" afterPath="$PROJECT_DIR$/dev/scss/_content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/work.html" afterPath="$PROJECT_DIR$/dev/work.html" />
     </list>
     <ignored path="Portfolio2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,17 +31,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="46" column="79" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="79" />
+            <state vertical-scroll-proportion="-18.5">
+              <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_content.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_content.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/scss/_content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17167382">
+            <state vertical-scroll-proportion="-5.0">
               <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
@@ -54,8 +51,38 @@
       <file leaf-file-name="app.es6" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.444445">
-              <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+            <state vertical-scroll-proportion="-7.7777777">
+              <caret line="14" column="21" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/js/site/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77178425">
+              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons-move.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/img/icons-move.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons-work.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/img/icons-work.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -103,6 +130,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -115,11 +149,15 @@
         <option value="$PROJECT_DIR$/dev/scss/_header.scss" />
         <option value="$PROJECT_DIR$/dev/scss/styles.scss" />
         <option value="$PROJECT_DIR$/dev/scss/_general.scss" />
-        <option value="$PROJECT_DIR$/dev/index.html" />
         <option value="$PROJECT_DIR$/dev/scss/_animation.scss" />
-        <option value="$PROJECT_DIR$/dev/js/site/app.es6" />
         <option value="$PROJECT_DIR$/dev/work.html" />
         <option value="$PROJECT_DIR$/dev/scss/_content.scss" />
+        <option value="$PROJECT_DIR$/dev/img/icons-build.svg" />
+        <option value="$PROJECT_DIR$/dev/js/site/app.es6" />
+        <option value="$PROJECT_DIR$/dev/index.html" />
+        <option value="$PROJECT_DIR$/dev/img/icons-move.svg" />
+        <option value="$PROJECT_DIR$/dev/img/icons-work.svg" />
+        <option value="$PROJECT_DIR$/dev/js/site/index.js" />
       </list>
     </option>
   </component>
@@ -134,9 +172,9 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1516" />
+    <option name="x" value="-1086" />
     <option name="y" value="-138" />
-    <option name="width" value="1516" />
+    <option name="width" value="1086" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -349,6 +387,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Portfolio2.0">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dev">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -426,11 +482,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1516" y="-138" width="1516" height="1080" extended-state="6" />
+    <frame x="-1086" y="-138" width="1086" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625418" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22816901" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="46" column="79" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/_animation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -614,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.444445">
-          <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
@@ -632,8 +672,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17167382">
+        <state vertical-scroll-proportion="-5.0">
           <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="14" column="21" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.5">
+          <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/icons-build.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/icons-move.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/icons-work.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/site/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77178425">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
           <folding />
         </state>
       </provider>
