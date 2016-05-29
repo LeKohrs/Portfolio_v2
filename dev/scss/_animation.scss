@@ -4,6 +4,6 @@
 }
 
 .active {
-    @include transform-translate(0, 0);
+    @include transform-translate(-50%, 0);
     position: relative;
 }

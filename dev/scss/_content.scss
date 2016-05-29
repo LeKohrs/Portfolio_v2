@@ -65,6 +65,31 @@
     width: (126rem / 16);
 }
 
+.arrow {
+    width: (35rem / 16);
+}
+
+.gif__arrow--left,
+.arrow--left {
+    @include transform-origin(50%, 50%);
+    @include transform-rotate(180);
+    left: 10%;
+}
+
+.gif__arrow--right,
+.gif__arrow--left,
+.arrow--left,
+.arrow--right {
+    position: absolute;
+    top: 35%;
+    z-index: 100;
+}
+
+.gif__arrow--right,
+.arrow--right {
+    right: 10%;
+}
+
 .arrow--down {
     @include transform-origin(50%, 50%);
     @include transform-rotate(90);
@@ -83,6 +108,7 @@
 }
 
 .project {
+    position: relative;
     padding: 2rem 1rem 2rem;
     text-align: center;
 }
@@ -92,28 +118,36 @@
     @include transition(all .4s);
     opacity: 0;
 }
+
 .project--visual-quiz {
     background: $siteTeal;
 }
 
 .project--codepen {
     background: $siteMidGray;
+    height: (750rem / 16);
+}
+
+.project--gif {
+    height: (700rem / 16);
 }
 
 .codepen-container {
     @include transition(all .7s);
-    @include transform-translate(200rem, 0);
     position: absolute;
-    width: 50%;
-    min-width: (350rem / 16);
-    max-width: (750rem / 16);
-    margin: 0 auto;
+    left: 50%;
+    top: 0;
+    width: (380rem / 16);
+    margin-left: -190px;
 }
 
 .gif-container {
     @include transition(all .7s);
-    @include transform-translate(200rem, 0);
     position: absolute;
+    left: 50%;
+    top: 0;
+    width: (380rem / 16);
+    margin-left: -190px;
 }
 
 .project__img {

@@ -34,11 +34,113 @@ function setupDom() {
     setTimeout(function () {
         doOnScroll();
     }, 1000);
+
+    // gif slider
+    var gifProject = document.getElementsByClassName('gif-container');
+    var gifCurrent = 0;
+    var gifPrevious;
+    TweenMax.set(gifProject, { x: 2000, alpha: 0 });
+    TweenMax.set(gifProject[gifCurrent], { x: 0, alpha: 1, y: -10 });
+
+    document.getElementsByClassName('gif__arrow--right')[0].addEventListener('click', function () {
+        function previous() {
+            if (gifCurrent == 0) {
+                gifPrevious = 2;
+            } else {
+                gifPrevious = gifCurrent - 1;
+            }
+        }
+
+        if (gifCurrent == 2) {
+            gifCurrent = 0;
+            previous();
+            var tl = new TimelineMax();
+            tl.to(gifProject[gifPrevious], .3, { x: -2000, alpha: 0 }).fromTo(gifProject[gifCurrent], .3, { x: 2000 }, { x: 0, alpha: 1 });
+        } else {
+            gifCurrent += 1;
+            previous();
+            var tl = new TimelineMax();
+            tl.to(gifProject[gifPrevious], .3, { x: -2000, alpha: 0 }).fromTo(gifProject[gifCurrent], .3, { x: 2000 }, { x: 0, alpha: 1 });
+        }
+    });
+    document.getElementsByClassName('gif__arrow--left')[0].addEventListener('click', function () {
+        function previous() {
+            if (gifCurrent == 2) {
+                gifPrevious = 0;
+            } else {
+                gifPrevious = gifCurrent + 1;
+            }
+        }
+
+        if (gifCurrent == 0) {
+            gifCurrent = 2;
+            previous();
+            var tl = new TimelineMax();
+            console.log(gifCurrent);
+            console.log(gifPrevious);
+            tl.to(gifProject[gifPrevious], .3, { x: 2000, alpha: 0 }).fromTo(gifProject[gifCurrent], .3, { x: -2000 }, { x: 0, alpha: 1 });
+        } else {
+            gifCurrent -= 1;
+            previous();
+            var tl = new TimelineMax();
+            console.log(gifCurrent);
+            console.log(gifPrevious);
+            tl.to(gifProject[gifPrevious], .3, { x: 2000, alpha: 0 }).fromTo(gifProject[gifCurrent], .3, { x: -2000 }, { x: 0, alpha: 1 });
+        }
+    });
+
+    // codepen slider
+    var penProject = document.getElementsByClassName('codepen-container');
+    var penCurrent = 0;
+    var penPrevious;
+    TweenMax.set(penProject, { x: 2000, alpha: 0 });
+    TweenMax.set(penProject[penCurrent], { x: 0, alpha: 1, y: -10 });
+
+    document.getElementsByClassName('pen__arrow--right')[0].addEventListener('click', function () {
+        function penPrevious() {
+            if (penCurrent == 0) {
+                penPrevious = 1;
+            } else {
+                penPrevious = penCurrent - 1;
+            }
+        }
+
+        if (penCurrent == 1) {
+            penCurrent = 0;
+            penPrevious();
+            var tl = new TimelineMax();
+            tl.to(penProject[penPrevious], .3, { x: -2000, alpha: 0 }).fromTo(penProject[penCurrent], .3, { x: 2000 }, { x: 0, alpha: 1 });
+        } else {
+            penCurrent += 1;
+            penPrevious();
+            var tl = new TimelineMax();
+            tl.to(penProject[penPrevious], .3, { x: -2000, alpha: 0 }).fromTo(penProject[penCurrent], .3, { x: 2000 }, { x: 0, alpha: 1 });
+        }
+    });
+    document.getElementsByClassName('pen__arrow--left')[0].addEventListener('click', function () {
+        function penPrevious() {
+            if (penCurrent == 1) {
+                penPrevious = 0;
+            } else {
+                penPrevious = penCurrent + 1;
+            }
+        }
+
+        if (penCurrent == 0) {
+            penCurrent = 1;
+            penPrevious();
+            var tl = new TimelineMax();
+            tl.to(penProject[penPrevious], .3, { x: 2000, alpha: 0 }).fromTo(penProject[penCurrent], .3, { x: -2000 }, { x: 0, alpha: 1 });
+        } else {
+            penCurrent -= 1;
+            penPrevious();
+            var tl = new TimelineMax();
+            tl.to(penProject[penPrevious], .3, { x: 2000, alpha: 0 }).fromTo(penProject[penCurrent], .3, { x: -2000 }, { x: 0, alpha: 1 });
+        }
+    });
 }
 
 function resizeDom() {
-
-    changeSource();
 
     // Refigure offsets when window is resized
     animations.elements.forEach(function (element, index, array) {
