@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="774bdab2-00e3-44e5-ba04-39026dca99d5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/img/icons-show.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css.map" afterPath="$PROJECT_DIR$/dev/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-build.svg" afterPath="$PROJECT_DIR$/dev/img/icons-build.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-move.svg" afterPath="$PROJECT_DIR$/dev/img/icons-move.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/icons-work.svg" afterPath="$PROJECT_DIR$/dev/img/icons-work.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/site/app.es6" afterPath="$PROJECT_DIR$/dev/js/site/app.es6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/site/app.js" afterPath="$PROJECT_DIR$/dev/js/site/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/site/index.js" afterPath="$PROJECT_DIR$/dev/js/site/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scss/_content.scss" afterPath="$PROJECT_DIR$/dev/scss/_content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scss/_header.scss" afterPath="$PROJECT_DIR$/dev/scss/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/work.html" afterPath="$PROJECT_DIR$/dev/work.html" />
     </list>
     <ignored path="Portfolio2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,81 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_content.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/scss/_content.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/scss/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.625">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.es6" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.11111">
-              <caret line="187" column="36" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/js/site/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icons-work.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/img/icons-work.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75103736">
-              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/scss/_general.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_box-styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/scss/sassquatch/scss/_box-styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="81" column="45" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6866953">
+              <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -144,7 +66,6 @@
         <option value="$PROJECT_DIR$/dev/scss/styles.scss" />
         <option value="$PROJECT_DIR$/dev/scss/_general.scss" />
         <option value="$PROJECT_DIR$/dev/scss/_animation.scss" />
-        <option value="$PROJECT_DIR$/dev/work.html" />
         <option value="$PROJECT_DIR$/dev/index.html" />
         <option value="$PROJECT_DIR$/dev/js/site/app.es6" />
         <option value="$PROJECT_DIR$/dev/scss/_header.scss" />
@@ -153,6 +74,7 @@
         <option value="$PROJECT_DIR$/dev/img/icons-move.svg" />
         <option value="$PROJECT_DIR$/dev/img/icons-build.svg" />
         <option value="$PROJECT_DIR$/dev/img/icons-work.svg" />
+        <option value="$PROJECT_DIR$/dev/work.html" />
       </list>
     </option>
   </component>
@@ -500,10 +422,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1202" y="-138" width="1202" height="1080" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575783" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575783" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -820,42 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/sassquatch/scss/_box-styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.875">
           <caret line="81" column="45" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.11111">
-          <caret line="187" column="36" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scss/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/site/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -868,18 +758,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/icons-build.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51724136">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/icons-work.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75103736">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/site/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7053942">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/site/app.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66810346">
+          <caret line="187" column="36" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.625">
+        <state vertical-scroll-proportion="0.9141631">
           <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/img/icons-build.svg">
+    <entry file="file://$PROJECT_DIR$/dev/scss/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.51502144">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -892,10 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/img/icons-work.svg">
+    <entry file="file://$PROJECT_DIR$/dev/work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75103736">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.6866953">
+          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
           <folding />
         </state>
       </provider>
