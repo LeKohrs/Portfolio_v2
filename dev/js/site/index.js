@@ -25,14 +25,14 @@ function setupDom() {
     var moveAe = moveDoc.getElementById('moveAe');
 
     var tl = new TimelineMax({repeat: -1, delay: 1});
-    tl.to(moveCss, .8, {y: -200, alpha: 0, ease: Power4.easeOut,}, '+7')
-        .to(moveJs, .8, {y: 0, ease: Power4.easeOut}, '+7')
-        .to(moveCss, .01, {y: 200})
+    tl.to(moveCss, .8, {y: 200, alpha: 0, ease: Power4.easeOut,}, '+7')
+        .to(moveJs, .8, {y: 0, alpha: 1, ease: Power4.easeOut}, '+7')
+        .to(moveCss, .01, {y:-200})
         .to(moveAe, .8, {y: 0, alpha: 1, ease: Power4.easeOut,}, '+14')
-        .to(moveJs, .8, {y: -200, ease: Power4.easeOut,}, '+14')
-        .to(moveJs, .01, {y: 200})
+        .to(moveJs, .8, {y: 200, alpha: 0, ease: Power4.easeOut,}, '+14')
+        .to(moveJs, .01, {y: -200})
         .to(moveCss, .8, {y: 0, alpha: 1, ease: Power4.easeOut,}, '+21')
-        .to(moveAe, .8, {y: -200, ease: Power4.easeOut,}, '+21');
+        .to(moveAe, .8, {y: 200, ease: Power4.easeOut,}, '+21');
 
     //Work icon animation
     var workIcon = document.getElementsByClassName('work__icons')[0];
@@ -44,10 +44,10 @@ function setupDom() {
 
     var tl = new TimelineMax({repeat: -1, delay: 2});
     tl.to(computer, .8, {y: -200, alpha: 0, ease: Power4.easeOut,}, '+7')
-        .to(twitter, .8, {y: 0, ease: Power4.easeOut}, '+7')
+        .to(twitter, .8, {y: 0, alpha: 1, ease: Power4.easeOut}, '+7')
         .to(computer, .01, {y: 200})
         .to(codepen, .8, {y: 0, alpha: 1, ease: Power4.easeOut,}, '+14')
-        .to(twitter, .8, {y: -200, ease: Power4.easeOut,}, '+14')
+        .to(twitter, .8, {y: -200, alpha: 0, ease: Power4.easeOut,}, '+14')
         .to(twitter, .01, {y: 200})
         .to(computer, .8, {y: 0, alpha: 1, ease: Power4.easeOut,}, '+21')
         .to(codepen, .8, {y: -200, ease: Power4.easeOut,}, '+21');

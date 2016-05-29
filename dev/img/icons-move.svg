@@ -21,7 +21,7 @@
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<g id="moveAe" class="st1" transform="translate(0,200)">
+	<g id="moveAe" class="st1" transform="translate(0,-200)">
 		<g>
 			<rect x="30.5" y="30.5" class="st2" width="65.9" height="65.9"/>
 			<rect x="36.8" y="36.8" class="st3" width="53.4" height="53.4"/>
@@ -36,7 +36,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="moveJs" class="st1" transform="translate(0,200)">
+	<g id="moveJs" class="st1" transform="translate(0,-200)">
 		<g>
 			<rect x="29.9" y="29.5" class="st4" width="65.9" height="65.9"/>
 		</g>

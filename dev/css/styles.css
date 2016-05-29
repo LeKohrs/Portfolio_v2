@@ -620,6 +620,17 @@ h5 {
 .header__git {
   width: 1.8125rem; }
 
+.icon {
+  transition: all 0.5s; }
+
+.icon:hover {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
 @media only screen and (max-width: 675px) {
   .header__links {
     -webkit-transform: translate(0, 0);
@@ -662,10 +673,10 @@ h5 {
 
 .build,
 .move {
-  margin-bottom: 5rem; }
+  margin-bottom: 8rem; }
 
 .work {
-  margin-bottom: 4rem; }
+  margin-bottom: 10rem; }
 
 .header {
   display: block;
@@ -698,6 +709,19 @@ h5 {
 .build__icons,
 .move__icons,
 .work__icons {
+  -webkit-border-top-right-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -webkit-border-bottom-left-radius: 100px;
+  -webkit-border-top-left-radius: 100px;
+  -moz-border-radius-topright: 100px;
+  -moz-border-radius-bottomright: 100px;
+  -moz-border-radius-bottomleft: 100px;
+  -moz-border-radius-topleft: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  background-clip: padding-box;
   width: 7.875rem; }
 
 .arrow {

@@ -40,6 +40,15 @@
     width: (29rem / 16);
 }
 
+.icon {
+    @include transition(all .5s);
+}
+
+.icon:hover {
+    @include transform-origin(50%, 50%);
+    @include transform-scale(1.2, 1.2);
+}
+
 @media only screen and (max-width: 675px) {
     .header__links {
         @include transform-translate(0, 0);

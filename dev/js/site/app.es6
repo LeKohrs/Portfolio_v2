@@ -185,7 +185,7 @@ var animations = {
                         (function(i, el) {
                             setTimeout(function() {
                                 el.addClass('slideUp');
-                            }, i * 300);
+                            }, i * 200);
                         })(i, steps[i]);
                     }
                 }

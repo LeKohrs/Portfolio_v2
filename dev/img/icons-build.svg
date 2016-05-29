@@ -21,9 +21,9 @@
 		<circle id="SVGID_1_" cx="63.5" cy="63.5" r="63"/>
 	</defs>
 	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		<use xlink:href="#SVGID_1_"  style="overflow:hidden;"/>
 	</clipPath>
-	<g id="buildDesk" class="st1">
+	<g id="buildDesk" class="st1" transform="translate(-2,-4)">
 		<path class="st2" d="M93.8,100.5H38.3c-6.6,0-12-5.4-12-12V45c0-6.6,5.4-12,12-12h55.5c6.6,0,12,5.4,12,12v43.5
 			C105.8,95.1,100.4,100.5,93.8,100.5z"/>
 		<g>

@@ -34,11 +34,11 @@
 
 .build,
 .move {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 
 .work {
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
 }
 
 .header {
@@ -62,6 +62,7 @@
 .build__icons,
 .move__icons,
 .work__icons {
+    @include border-radius(100px, 100px, 100px, 100px);
     width: (126rem / 16);
 }
 
